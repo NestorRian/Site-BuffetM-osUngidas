@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    text-align: center;
+}
+
+body {
+    background-color: #0000007b;
+}
+
+h1 {
+    background-color: #000;
+    color: #FFF;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+h2 {
+    background-color: #000;
+    color: #FFF;
+    padding: 20px;
+    text-align: center;
+}
+
+.text {
+    padding: 30px;
+    text-align: center;
+}
+
+p {
+    background-color: #fff;
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nome-buffet {
+    text-decoration: underline;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    border-bottom: 1px solid #FFF;
+}
+
+img {
+    background-image: url(IMG-BUFFET.jpg);
+    border-radius: 100%;
+    max-width: 60%;
+    margin-top: 8px;
+    margin: auto;
+    display: block;
+    
+}
+
+.info {
+    background-color: #FFF;
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.title {
+    font-size: 25px;
+    padding: 30px;
+}
