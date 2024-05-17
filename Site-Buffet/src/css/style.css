@@ -9,6 +9,12 @@ body {
     background-color: #0000007b;
 }
 
+.nome-buffet {
+    color: #fff;
+    font-size: 35px;
+    font-family: 'Snell Roundhand', 'cursive';
+}
+
 h1 {
     background-color: #000;
     color: #FFF;
@@ -26,6 +32,7 @@ h2 {
 
 .text {
     padding: 30px;
+    text-decoration: underline;
     text-align: center;
 }
 
@@ -34,6 +41,31 @@ p {
     padding: 10px;
     font-size: 25px;
     text-align: center;
+}
+
+.container img {
+    width: 600px;
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 40px;
+    
+}
+
+.container p {
+    text-align: left;
+}
+
+.container-txt img {
+    width: 600px;
+    float: right;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+.container-txt p {
+    text-align: left;
 }
 
 header {
@@ -54,8 +86,24 @@ nav ul {
 }
 
 nav a {
-    text-decoration: none;
     color: #fff;
+    text-decoration: none;
+    position: relative;
+}
+
+nav a::after {
+    content: " ";
+    width: 0%;
+    height: 2px;
+    background-color: #FFF;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+nav a:hover::after{
+    width: 100%;
 }
 
 .img-principal {
