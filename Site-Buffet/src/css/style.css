@@ -172,21 +172,28 @@ nav a:hover::after{
 }
 
 .cardapios {
-    margin-top: 20px;
     float: left;
+    background-color: #FFF;
     
 }
 
 
 
 .cardapios p {
-    background-color: rgb(13, 13, 13);
+    background-color: rgb(49, 47, 47);
     color: #FFF;
     width: 400px;
-    margin-right: 2px;
-    margin-left: 5px;
+    margin-right: 10px;
+    margin-left: 10.5px;
+    margin-bottom: 10px;
     height: 400px;
     border-radius: 20%;
-    padding: 39px;
+    padding: 35px;
+}
+
+.title-card {
+    text-decoration: underline;
+    font-family: 'Snell Roundhand', 'cursive';
+    font-size: 25px;
 }
 
