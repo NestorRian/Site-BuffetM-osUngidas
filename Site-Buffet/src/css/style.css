@@ -87,7 +87,7 @@ p {
 }
 
 .container img {
-    width: 450px;
+    width: 480px;
     float: left;
     margin-right: 10px;
     margin-left: 15px;
@@ -110,7 +110,7 @@ p {
 }
 
 .container-txt img {
-    width: 450px;
+    width: 480px;
     float: right;
     margin-right: 15px;
     margin-left: 10px;
@@ -173,14 +173,14 @@ nav a:hover::after{
 
 .cardapios {
     float: left;
-    background-color: #FFF;
-    
+    background-color: #FFF;    
 }
 
 
 
 .cardapios p {
     background-color: rgb(49, 47, 47);
+    background-image: url(../assets/fundo-menu.jpg);
     color: #FFF;
     width: 400px;
     margin-right: 10px;
@@ -197,3 +197,113 @@ nav a:hover::after{
     font-size: 25px;
 }
 
+.formas-pagamento p {
+    text-align: center;
+    font-size: 40px;
+    float: left;
+    margin-left: 100px;
+}
+
+#card-final {
+    margin-bottom: 50px;
+}
+
+.img-cartao {
+    float: left;
+    margin-top: -260px;
+    background-color: #FFF;
+    margin-left: 100px;
+}
+
+.img-gif {
+    width: 400px;
+    height: 300px;
+    margin-top: 100px;
+}
+
+.button-orcamento {
+    font-size: 25px;
+    padding: 10px;
+    background-color: rgb(191, 18, 18);
+    color: #FFF;
+    margin-top: 15px;
+}
+
+.button-orcamento:hover {
+    background-color: rgb(15, 99, 15);
+}
+
+@media screen and (max-width: 768px) {
+    #header-secundario {
+        margin-bottom: -50px;
+        font-size: 30px;
+    }
+
+    #header-principal {
+
+    }
+
+    h1, h2 {
+        font-size: 15px;
+    }
+
+    .text {
+        font-size: 15px;
+        
+    }
+
+    .container img {
+        width: 300px;
+        margin-left: 50px;
+        margin-bottom: 15px;
+        margin-top: -50px;
+        
+    }
+
+    .container {
+        text-align: center;
+    }
+
+    .container-txt img {
+        width: 300px;
+        margin-right: 50px;
+        margin-bottom: 30px;
+        margin-top: -30px;
+    }
+
+    .img-principal {
+        margin-top: -10px;
+    }
+
+    .cardapios p {
+        width: 300px;
+        height: 300px;
+        font-size: 15px;
+    }
+
+    .title-card {
+        font-size: 20px;
+    }
+
+    .formas-pagamento p {
+        font-size: 20px;
+        float: none;
+        text-align: left;
+        margin-left: 3px;
+    }
+
+    .img-gif {
+        width: 200px;
+        display: none;
+        
+    }
+
+    .img-cartao {
+        float: none;
+        display: inline;
+        margin-left: -10px;
+        justify-items: center;
+        margin-bottom: 20px;
+    }
+        
+}
