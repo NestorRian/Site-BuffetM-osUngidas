@@ -227,6 +227,7 @@ nav a:hover::after{
     background-color: rgb(191, 18, 18);
     color: #FFF;
     margin-top: 15px;
+    cursor: pointer;
 }
 
 .button-orcamento:hover {
@@ -235,12 +236,7 @@ nav a:hover::after{
 
 @media screen and (max-width: 768px) {
     #header-secundario {
-        margin-bottom: -50px;
-        font-size: 30px;
-    }
-
-    #header-principal {
-
+        display: none;
     }
 
     h1, h2 {
