@@ -158,7 +158,8 @@ nav a:hover::after{
     max-width: 60%;
     border-radius: 100%;
     margin: auto;
-    padding-top: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     display: block;    
 }
 
@@ -231,7 +232,7 @@ nav a:hover::after{
 }
 
 .button-orcamento:hover {
-    background-color: rgb(15, 99, 15);
+    background-color: rgb(23, 101, 23);
 }
 
 @media screen and (max-width: 768px) {
