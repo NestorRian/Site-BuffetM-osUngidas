@@ -313,9 +313,57 @@ p {
     cursor: pointer;
 }
 
+.footer-contato {
+    background-color: #202020;
+    display: flex;
+}
+
+.footer-contato p  {
+    background-color: #202020;
+    color: #FFF;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.footer-contato a:hover {
+    color: rgb(228, 251, 17);
+}
+
+
+.footer-contato a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.title-footer {
+    color: #FFF;
+    margin-top: 40px;
+    margin-left: 100px;
+    font-size: 30px;
+    margin-bottom: 10px;
+    border-bottom: 3px dotted #f1f10d;
+    height: 80px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.footer-contato img {
+    margin-right: 10px;
+}
+
+
 .button-orcamento:hover {
     background-color: rgb(23, 101, 23);
 }
+
+.espacos-div {
+    margin-left: 30px;
+}
+
+.espacos-div p {
+    margin-left: 100px;
+}
+
 
 @media screen and (max-width: 768px) {
     #header-secundario {
@@ -402,4 +450,25 @@ p {
         display: block;
     }
         
+    .footer-contato  {
+        display: block;
+        margin-top: -40px;
+    }
+
+    .title-footer {
+        padding-top: 50px;
+        margin-right: 70px;
+        margin-left: 40px;
+        font-size: 28px;
+    }
+
+    .espacos-div p {
+        margin-right: 40px;
+        margin-left: 20px;
+    }
+
+    .button-orcamento {
+        margin-bottom: 20px;
+    }
+
 }
