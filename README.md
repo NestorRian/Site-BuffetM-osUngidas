@@ -16,18 +16,6 @@ Serviços: Detalhes dos serviços oferecidos, com opções de personalização p
 Contato: Proporciona Contato para solicitações e reservas.
 Cardápios: Contém os cardápios oferecidos e detalhes de cada um.
 
-Como Executar o Projeto
-Clone o repositório:
-
-sh
-Copiar código
-git clone https://github.com/seu-usuario/buffet-maos-ungidas.git
-Navegue até o diretório do projeto:
-
-sh
-Copiar código
-cd buffet-maos-ungidas
-Abra o arquivo index.html no seu navegador preferido.
 
 
 Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato comigo:
