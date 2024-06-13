@@ -41,3 +41,9 @@ GitHub: https://github.com/NestorRian
 
 Espero que este projeto seja útil e inspire outros desenvolvedores a criar soluções inovadoras para seus clientes. Agradeço ao Buffet Mãos Ungidas pela oportunidade de colaborar nesse projeto incrível!
 
+
+
+
+https://github.com/NestorRian/Site-BuffetMaosUngidas/assets/115047967/7b1217e6-7043-41c0-a0cf-5b9158ac6516
+
+
