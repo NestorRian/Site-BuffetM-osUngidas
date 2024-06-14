@@ -473,6 +473,35 @@ p {
     .button-orcamento img {
         width: 50px;
     }
+
+    .title-footer {
+        color: #FFF;
+        margin: auto;
+        margin-top: 40px;
+        font-size: 55px;
+        margin-right: 50px;
+        margin-bottom: 40px;
+        border-bottom: 3px dotted #f1f10d;
+        height: 80px;
+        font-weight: lighter;
+        text-align: center;
+    }
+
+    .footer-contato img {
+        margin-right: 40px;
+        width: 50px;
+        display: inline;
+    }
+
+    .espacos-div {
+        margin: auto;
+    }
+
+    .espacos-div p {
+        font-size: 35px;
+        text-align: center;
+        margin-right: 150px;
+    }
 }
 
 
