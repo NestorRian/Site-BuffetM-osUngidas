@@ -1,12 +1,13 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    ;
     text-align: center;
 }
 
 html {
-    scroll-behavior: smooth;   
+    scroll-behavior: smooth;
 }
 
 
@@ -14,7 +15,8 @@ body {
     background-color: #0000007b;
 }
 
-html, body {
+html,
+body {
     max-width: 100%;
     overflow-x: hidden;
 }
@@ -38,7 +40,7 @@ html, body {
     width: 100%;
     height: 35px;
     display: flex;
-    align-items: center;    
+    align-items: center;
     justify-content: center;
 }
 
@@ -54,7 +56,7 @@ html, body {
     width: 70%;
 }
 
-.menu-mobile.abrir-menu ~ .overlay-menu {
+.menu-mobile.abrir-menu~.overlay-menu {
     display: block;
 }
 
@@ -100,14 +102,14 @@ html, body {
     text-align: right;
 }
 
-.menu-mobile .btn-fechar{
+.menu-mobile .btn-fechar {
     color: #FFF;
     text-align: left;
     padding: 20px 8%;
 }
 
 
-.icones-header ul{
+.icones-header ul {
     list-style: none;
     display: flex;
 }
@@ -134,23 +136,18 @@ html, body {
 .logo-buf {
     width: 300px;
     height: 130px;
-    
+
 }
 
-h1 {
-    background-color: #000;
-    color: #FFF;
-    padding: 20px;
-    text-align: center;
-    
-}
-
+h1,
 h2 {
     background-color: #000;
     color: #FFF;
     padding: 20px;
     text-align: center;
+
 }
+
 
 .text {
     padding: 80px;
@@ -174,7 +171,7 @@ p {
     margin-right: 10px;
     margin-left: 15px;
     margin-top: 10px;
-    
+
 }
 
 .container-princ {
@@ -231,7 +228,7 @@ p {
     transition: 0.5s ease-in-out;
 }
 
-.menu-desktop a:hover::after{
+.menu-desktop a:hover::after {
     width: 100%;
 }
 
@@ -242,7 +239,7 @@ p {
     margin: auto;
     margin-top: 5px;
     margin-bottom: 5px;
-    display: block;    
+    display: block;
 }
 
 .title {
@@ -256,7 +253,7 @@ p {
 
 .cardapios {
     float: left;
-    background-color: #FFF;    
+    background-color: #FFF;
 }
 
 
@@ -276,15 +273,14 @@ p {
 
 .title-card {
     text-decoration: underline;
-    font-family: 'Snell Roundhand', 'cursive';
+    font-family: Gill Sans, sans-serif;
     font-size: 25px;
 }
 
 .formas-pagamento p {
     text-align: center;
     font-size: 40px;
-    float: left;
-    margin-left: 100px;
+    width: 100%;
 }
 
 #card-final {
@@ -292,17 +288,11 @@ p {
 }
 
 .img-cartao {
-    float: left;
-    margin-top: -260px;
     background-color: #FFF;
-    margin-left: 100px;
+    margin: auto;
+    padding-bottom: 15px;
 }
 
-.img-gif {
-    width: 400px;
-    height: 300px;
-    margin-top: 100px;
-}
 
 .button-orcamento {
     font-size: 25px;
@@ -318,7 +308,7 @@ p {
     display: flex;
 }
 
-.footer-contato p  {
+.footer-contato p {
     background-color: #202020;
     color: #FFF;
     margin-top: 10px;
@@ -364,6 +354,128 @@ p {
     margin-left: 100px;
 }
 
+@media screen and (min-width: 1600px) {
+    #header-secundario {
+        height: 90px;
+        font-size: 40px;
+    }
+
+    .icones-header img {
+        width: 60px;
+    }
+
+    .rede-social img {
+        width: 60px;
+    }
+
+    .logo-buf {
+        width: 500px;
+        height: 220px;
+    }
+
+    #header-principal {
+        height: 200px;
+        font-size: 50px;
+    }
+
+    h1,
+    h2 {
+        font-size: 45px;
+        text-align: center;
+        padding: none;
+    }
+
+    .title-section {
+        height: 120px;
+        font-size: 45px;
+        padding: 20px;
+        padding-top: 60px;
+
+    }
+
+    .text {
+        font-size: 50px;
+    }
+
+    p {
+        font-size: 60px;
+    }
+
+    .container img {
+        width: 1500px;
+        float: none;
+        margin: auto;
+        margin-bottom: 60px;
+    }
+
+    .container p {
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    .container-txt p {
+        text-align: center;
+        margin-top: 60px;
+
+    }
+
+    .container-txt img {
+        float: none;
+        width: 1500px;
+        margin: auto;
+        margin-bottom: 60px;
+    }
+
+    .cardapios p {
+        width: 1100px;
+        height: 1200px;
+        margin: auto;
+        margin-left: 70px;
+        margin-bottom: 30px;
+    }
+
+    .title-card {
+        font-size: 55px;
+    }
+
+    #card-final {
+        margin-left: 630px;
+    }
+
+    .formas-pagamento p {
+        text-align: center;
+        font-size: 60px;
+        float: none;
+        justify-content: center;
+        margin-bottom: 20px;
+        margin: auto;
+        display: flex;
+    }
+
+    .img-cartao {
+        float: none;
+        display: inline;
+        font-size: 80px;
+        margin: auto;
+        justify-items: center;
+        margin-bottom: 20px;
+    }
+
+    .button-orcamento {
+        font-size: 55px;
+        background-color: rgb(191, 18, 18);
+        color: #FFF;
+        padding: 30px;
+        margin-bottom: 20px;
+        cursor: pointer;
+    }
+
+    .button-orcamento img {
+        width: 50px;
+    }
+}
+
+
 
 @media screen and (max-width: 768px) {
     #header-secundario {
@@ -383,41 +495,57 @@ p {
         height: 95px;
     }
 
-    h1, h2 {
+    h1,
+    h2 {
         font-size: 15px;
     }
 
+
     .text {
         font-size: 20px;
-        
+
     }
+
 
     .container img {
         width: 300px;
-        margin-left: 45px;
+        float: none;
+        margin: auto;
         margin-bottom: 15px;
         margin-top: -50px;
-        
+
     }
 
-    .container {
+    .container p {
         text-align: center;
     }
 
+
     .container-txt img {
         width: 300px;
-        margin-right: 45px;
+        float: none;
+        margin: auto;
         margin-bottom: 30px;
         margin-top: -30px;
+    }
+
+    .container-txt p {
+        text-align: center;
     }
 
     .img-principal {
         margin-top: -235px;
     }
 
+    .cardapios {
+        float: none;
+    }
+
     .cardapios p {
         width: 300px;
         height: 300px;
+        margin: auto;
+        margin-bottom: 10px;
         font-size: 15px;
     }
 
@@ -432,12 +560,7 @@ p {
         margin-left: 3px;
     }
 
-    .img-gif {
-        width: 200px;
-        display: none;
-        
-    }
-
+    
     .img-cartao {
         float: none;
         display: inline;
@@ -445,30 +568,31 @@ p {
         justify-items: center;
         margin-bottom: 20px;
     }
-
+    
     .btn-abrir-menu svg {
         display: block;
     }
-        
-    .footer-contato  {
+    
+    .footer-contato {
         display: block;
         margin-top: -40px;
     }
-
+    
     .title-footer {
         padding-top: 50px;
         margin-right: 70px;
         margin-left: 40px;
         font-size: 28px;
     }
-
+    
     .espacos-div p {
         margin-right: 40px;
         margin-left: 20px;
     }
-
+    
     .button-orcamento {
         margin-bottom: 20px;
     }
-
 }
+
+
